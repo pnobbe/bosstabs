@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Item from './components/Item'
+import Category from './components/Category'
 
 Vue.config.productionTip = false
+
+Vue.component('item', Item)
+Vue.component('category', Category)
 
 /* eslint-disable no-new */
 new Vue({

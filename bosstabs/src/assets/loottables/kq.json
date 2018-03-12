@@ -1,0 +1,108 @@
+[
+  {
+    "category": "Equipment",
+    "items": [
+      {
+        "id": "1113",
+        "name": "rune chain",
+        "quantity": 1,
+        "rarity": 1
+      },
+      {
+        "id": "3053",
+        "name": "lava battlestaff",
+        "quantity": 1,
+        "rarity": 1
+      },
+      {
+        "id": "2501",
+        "name": "red dhide body",
+        "quantity": 1,
+        "rarity": 1
+      },
+      {
+        "id": "5667",
+        "name": "rune knife (p++)",
+        "quantity": 25,
+        "rarity": 1
+      },
+      {
+        "id": "1391",
+        "name": "battlestaff",
+        "quantity": 10,
+        "rarity": 2
+      },
+      {
+        "id": "3140",
+        "name": "dchain",
+        "quantity": 1,
+        "rarity": 2
+      },
+      {
+        "id": "7158",
+        "name": "dragon 2h sword",
+        "quantity": 1,
+        "rarity": 2
+      }
+    ]
+  },
+  {
+    "category": "Consumables",
+    "items": [
+      {
+        "id": "7946",
+        "name": "monkfish",
+        "quantity": 3,
+        "rarity": 0
+      },
+      {
+        "id": "385",
+        "name": "shark",
+        "quantity": 2,
+        "rarity": 0
+      },
+      {
+        "id": "12699",
+        "name": "super combat potion(2)",
+        "quantity": 1,
+        "rarity": 0
+      },
+      {
+        "id": "169",
+        "name": "ranging potion(3)",
+        "quantity": 1,
+        "rarity": 0
+      },
+      {
+        "id": "183",
+        "name": "superantipoison(2)",
+        "quantity": 1,
+        "rarity": 0
+      },
+      {
+        "id": "11936",
+        "name": "dark crab",
+        "quantity": 2,
+        "rarity": 1
+      },
+      {
+        "id": "6685",
+        "name": "saradomin brew(4)",
+        "quantity": 1,
+        "rarity": 1
+      },
+      {
+        "id": "3024",
+        "name": "super restore(4)",
+        "quantity": 1,
+        "rarity": 1
+      },
+      {
+        "id": "2434",
+        "name": "prayer restore(4)",
+        "quantity": 2,
+        "rarity": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "category": "Uniques",
+    "items": [
+      {
+        "id": "12823",
+        "name": "spectral",
+        "quantity": 1,
+        "rarity": 3
+      },
+      {
+        "id": "12827",
+        "name": "arcane",
+        "quantity": 1,
+        "rarity": 3
+      },
+      {
+        "id": "12819",
+        "name": "elysian",
+        "quantity": 1,
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "category": "Uncuts",
+    "items": [
+      {
+        "id": null,
+        "name": "coins",
+        "quantity": 300,
+        "rarity": 0
+      },
+      {
+        "id": "12827",
+        "name": "Arcane",
+        "quantity": 1,
+        "rarity": 0
+      },
+      {
+        "id": "12819",
+        "name": "Elysian",
+        "quantity": 1,
+        "rarity": 0
+      }
+    ]
+  }
+]

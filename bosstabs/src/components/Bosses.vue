@@ -4,27 +4,14 @@
     <h2>Bosslist</h2>
     <ul>
       <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Corp
-        </a>
+        <router-link to="/corp">
+          Corporeal Beast
+        </router-link>
       </li>
       <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
+        <router-link to="/kq">
           Kalphite Queen
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank">
-          Etc
-        </a>
+        </router-link>
       </li>
     </ul>
   </div>
