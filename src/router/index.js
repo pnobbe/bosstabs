@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Bosses from '@/components/Bosses'
+import Classes from '@/components/Classes'
 import Tab from '@/components/Tab'
 import corpTable from '@/assets/loottables/corp.json'
 import kqTable from '@/assets/loottables/kq.json'
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Bosses',
-      component: Bosses
+      name: 'Classes',
+      component: Classes
     },
     {
       path: '/corp',

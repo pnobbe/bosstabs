@@ -50,25 +50,6 @@ export default {
         let price = JSON.stringify(this.apiObj.current.price)
         this.apiObj.current.price = JSON.parse(price.replace(',', ''))
 
-        switch (this.item.rarity) {
-          case 0:
-            this.rarity = 'Common'
-            this.bgColor = '#56E156'
-            break
-          case 1:
-            this.rarity = 'Uncommon'
-            this.bgColor = '#FFED4C'
-            break
-          case 2:
-            this.rarity = 'Rare'
-            this.bgColor = '#FF863C'
-            break
-          case 3:
-            this.rarity = 'Very rare'
-            this.bgColor = '#FF6262'
-            break
-        }
-
         this.loading = false
       })
     } else if (this.item.name === 'coins') {

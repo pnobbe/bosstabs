@@ -3,13 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
 import Item from './components/Item'
 import Category from './components/Category'
 
-Vue.config.productionTip = false
-
-Vue.component('item', Item)
-Vue.component('category', Category)
+axios.defaults.baseURL = 'http://dnd5eapi.co/api/';
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 
 /* eslint-disable no-new */
 new Vue({

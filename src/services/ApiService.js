@@ -3,8 +3,8 @@
  * This is a API service class that uses fetch and promises.
  */
 export default class ApiService {
-  constructor () {
-    this.baseUrl = 'http://services.runescape.com/m=itemdb_oldschool'
+  constructor() {
+    this.baseUrl = 'http://dnd5eapi.co/api/'
   }
 
   /**
@@ -18,18 +18,41 @@ export default class ApiService {
    * @memberof sampleWebService
    * @returns {Promise<any>} returns a Promise
    */
-  getItem (itemId) {
-    let url = this.baseUrl + '/api/catalogue/detail.json?item=' + itemId
+  getClasses() {
+    let url = this.baseUrl + 'classes'
+    return new Promise((resolve, reject) => {
+      // We fetch the API endpoint
+      fetch(url, {
+        mode: 'no-cors' // 'cors' by default()
+      }).then((response) => {
+        response.json();
+      }).then((data) => {
+        console.log(data);
+        resolve(data);
+      }).catch(err => {
+        // Service Error
+        reject(err);
+      })
+    })
+  }
+
+  /**
+   * Sample Get Fetch using HTTP Bin
+   *
+   * @example
+   var service = new sampleWebService();
+   service.Get().then((success => {
+        console.log(success);
+      }))
+   * @memberof sampleWebService
+   * @returns {Promise<any>} returns a Promise
+   */
+  getClass (classId) {
+    let url = this.baseUrl + 'classes/' + classId
     return new Promise((resolve, reject) => {
       // We fetch the API endpoint
       fetch(url).then((response) => {
-        if (response.status !== 200) {
-          // Not success
-          resolve(response.text())
-        } else {
-          // success
-          resolve(response.text())
-        }
+        resolve(response.text())
       }).catch(err => {
         // Service Error
         reject(err)
